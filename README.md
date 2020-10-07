@@ -1,6 +1,6 @@
 # app_packaging
 ## IOS
-###info.plist
+### info.plist
 1.CFBundleIdentifier - App的唯一標示符，相同標示符之App不能同時安裝在手機中。
 
 
