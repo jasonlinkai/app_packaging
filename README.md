@@ -35,21 +35,18 @@ npm run ios
 
 ### 2. [Install Android Studio](https://developer.android.com/studio)
 
-Use standard install
+-   Use standard install
 Android Studio -> Preferences | Appearance & Behavior → System Settings open → Android SDK.
 
-Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. 
+-   Select the "SDK Platforms" tab from within the SDK Manager, then check the box next to "Show Package Details" in the bottom right corner. 
 
-Look for and expand the Android 10 (Q) entry, then make sure the following items are checked:
+-   Look for and expand the Android 10 (Q) entry, then make sure the following items are checked: Android SDK Platform 29 and Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image.
 
-Android SDK Platform 29
-Intel x86 Atom_64 System Image or Google APIs Intel x86 Atom System Image
+-   Next, select the "SDK Tools" tab and check the box next to "Show Package Details" here as well.
 
-Next, select the "SDK Tools" tab and check the box next to "Show Package Details" here as well.
+-   Look for and expand the "Android SDK Build-Tools" entry, then make sure that 29.0.2 is selected.
 
-Look for and expand the "Android SDK Build-Tools" entry, then make sure that 29.0.2 is selected.
-
-Finally, click "Apply" to download and install the Android SDK and related build tools.
+-   Finally, click "Apply" to download and install the Android SDK and related build tools.
 
 
 ### 3. Add PATH to ~/.zshrc
@@ -72,13 +69,10 @@ Notice: You need to run "npm run ios" first.
 ### 1. Get the Apple ID details from signature company or register Apple ID by your self, if you use your self, you need to purchase Apple Developer.
 ### 2. [Login Apple Developer](https://developer.apple.com/account)
 ### 3. Generating a Provision Profile
-You need to register at least one iPhone for generating a iOS APP development Provision Profile.
-
-You can register the iPhone in "Devices" in Apple Developer website.
-
-Except upper step, you also need to upload your Mac certificate to "Certificates".
-
-Using Mac's "Keychain Access" to create Certificate Signing Request (CSR) file and upload to "Certificates".
-
-From now, you can set "Identifiers" to your apps.
+-   You need to register at least one iPhone for generating a iOS APP development Provision Profile.
+-   You can register the iPhone in "Devices" in Apple Developer website.
+-   Except upper step, you also need to upload your Mac certificate to "Certificates".
+-   Using Mac's "Keychain Access" to create Certificate Signing Request (CSR) file and upload to "Certificates".
+-   From now, you can set "Identifiers" to your apps.
+-   Congratulation!
 
