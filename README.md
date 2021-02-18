@@ -1,4 +1,4 @@
-# Environment Building Steps
+# React-Native Environment Building Steps
 ## iOS
 
 ### 1. Install homebrew
