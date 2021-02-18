@@ -21,10 +21,10 @@
 ### 7. [Install Xcode](https://developer.apple.com/services-account/download?path=/Developer_Tools/Xcode_12.3/Xcode_12.3.xip)
 
 ### 8. Install iOS simulator
-open Xcode -> Create Empty Project  -> Perference -> Components -> install iOS 13.4 simulator
+-   open Xcode -> Create Empty Project  -> Perference -> Components -> install iOS 13.4 simulator
 
 ### 9. Chose Xcode Command Line Tools Version
-open Xcode -> Select Empty Project -> Perference -> Location -> Command Line Tools -> chose Xcode 12.3 (12C33)
+-   open Xcode -> Select Empty Project -> Perference -> Location -> Command Line Tools -> chose Xcode 12.3 (12C33)
 npm run ios
 
 
@@ -66,8 +66,8 @@ Notice: You need to run "npm run ios" first.
 
 ## Register Apple ID Steps
 
-### 1. Get the Apple ID details from signature company or register Apple ID by your self, if you use your self, you need to purchase Apple Developer.
-### 2. [Login Apple Developer](https://developer.apple.com/account)
+### 1. Get the Apple ID.
+### 2. [Login Apple Developer](https://developer.apple.com/account)
 ### 3. Generating a Provision Profile
 -   You need to register at least one iPhone for generating a iOS APP development Provision Profile.
 -   You can register the iPhone in "Devices" in Apple Developer website.
